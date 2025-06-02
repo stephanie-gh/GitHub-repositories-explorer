@@ -22,6 +22,8 @@ A simple React + Next.js application that integrates with the [GitHub REST API v
 
 > ![Preview Screenshot](preview.png)  
 > _Search users and view their repositories in an accordion UI_
+> ![localhost_3000_(iPhone 14 Pro Max)](https://github.com/user-attachments/assets/606d204c-a230-4431-ac9c-cdca3dcf891c)
+
 
 ## 🛠️ Installation
 
