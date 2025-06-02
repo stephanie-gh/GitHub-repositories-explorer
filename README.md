@@ -2,6 +2,8 @@
 
 A simple React + Next.js application that integrates with the [GitHub REST API v3](https://developer.github.com/v3/) to search for GitHub users and view their repositories.
 
+📌 Hosted online using Vercel, try it out https://github-repositories-explorer-by-stephanie.vercel.app/
+
 ## ✨ Features
 
 - Search GitHub users by username (up to 5 results)
