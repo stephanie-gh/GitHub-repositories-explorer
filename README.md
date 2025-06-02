@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔍 GitHub Repositories Explorer
 
-## Getting Started
+A simple React + Next.js application that integrates with the [GitHub REST API v3](https://developer.github.com/v3/) to search for GitHub users and view their repositories.
 
-First, run the development server:
+## ✨ Features
+
+- Search GitHub users by username (up to 5 results)
+- View public repositories for each selected user
+- Expand/collapse user sections with a clean UI
+- Styled with Chakra UI
+- Written in TypeScript for type safety
+
+## 🚀 Tech Stack
+
+- [React](https://reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Chakra UI](https://chakra-ui.com/)
+- [GitHub REST API v3](https://developer.github.com/v3/)
+
+## 📸 Preview
+
+> ![Preview Screenshot](preview.png)  
+> _Search users and view their repositories in an accordion UI_
+
+## 🛠️ Installation
 
 ```bash
-npm run dev
-# or
+# Clone the repository
+git clone https://github.com/stephanie-gh/GitHub-repositories-explorer.git
+cd GitHub-repositories-explorer
+
+# Install dependencies
+yarn install
+
+# Run the development server
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
